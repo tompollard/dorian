@@ -1,10 +1,10 @@
-#! /usr/bin/env python
+#!/usr/bin/env python
 
 import sys
 
-def reducer(inputdata):
+def reducer(stream):
     mydict = {}
-    line = inputdata.readline()
+    line = stream.readline()
     while line:
         
         # Get the key/value pair
@@ -19,7 +19,7 @@ def reducer(inputdata):
             mydict[word] = 1
 
         # Get the next line
-        line = inputdata.readline()
+        line = stream.readline()
 
     # Print the aggregated key/value pairs
     # for word in sorted(mydict.keys()): # order by word
