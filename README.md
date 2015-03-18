@@ -8,7 +8,7 @@ This repository contains sample code for the cloud computing exercises at:
 countwords takes a text document as an argument and counts the number of occurrences of each word. e.g.
 
 ```
-$ ./countwords.sh dorian.txt
+$ ./countwords dorian.txt
 
 Word count saved as output/wordcount.txt
 ```
