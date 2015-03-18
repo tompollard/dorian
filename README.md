@@ -1,4 +1,4 @@
-# Example content for the MapReduce exercise
+# Examples for the MapReduce exercise
 
 This repository contains sample code for the cloud computing exercises at: 
 [http://development.rc.ucl.ac.uk/training/rcwithcpp/session10/](http://development.rc.ucl.ac.uk/training/rcwithcpp/session10/)
