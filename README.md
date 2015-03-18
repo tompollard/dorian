@@ -3,9 +3,9 @@
 This repository contains sample code for the cloud computing exercises at: 
 [http://development.rc.ucl.ac.uk/training/rcwithcpp/session10/](http://development.rc.ucl.ac.uk/training/rcwithcpp/session10/)
 
-# Running the shell script (countwords.sh)
+# Running the shell script (countwords)
 
-countwords.sh takes a text document as an argument and counts the number of occurrences of each word. e.g.
+countwords takes a text document as an argument and counts the number of occurrences of each word. e.g.
 
 ```
 $ ./countwords.sh dorian.txt
