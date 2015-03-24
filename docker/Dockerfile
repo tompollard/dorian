@@ -8,6 +8,8 @@ MAINTAINER Tom Pollard <tom.pollard.11@ucl.ac.uk>
 RUN apt-get update
 RUN apt-get install -y wget
 RUN apt-get install -y unzip
+RUN apt-get install -y python-pip
+RUN pip install nltk
 
 # Create working directory and add to path
 RUN mkdir /analysis
