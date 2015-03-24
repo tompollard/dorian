@@ -31,13 +31,3 @@ CMD /usr/bin/notebook.sh
 
 # Open port to the outside world
 EXPOSE 8888
-
-# Instructions:
-# boot2docker start # if OSX
-# boot2docker ip # if OSX
-# docker build -t tompollard/dorian:v1 .
-# docker run -t --rm=true -p 8888:8888 -i tompollard/dorian:v1
-# Notebook available at: {ip}:8888
-
-
-
