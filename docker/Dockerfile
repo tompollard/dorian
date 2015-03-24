@@ -7,6 +7,7 @@ MAINTAINER Tom Pollard <tom.pollard.11@ucl.ac.uk>
 # Specify commands to run inside the image
 RUN apt-get update
 RUN apt-get install -y wget
+apt-get install unzip
 
 # Create working directory and add to path
 RUN mkdir /analysis
