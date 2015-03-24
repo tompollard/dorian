@@ -1,12 +1,11 @@
 # Set the source image
-FROM ipython/ipython:master
+FROM ipython/scipystack:master
 
 # Set the maintainer of this image
 MAINTAINER Tom Pollard <tom.pollard.11@ucl.ac.uk>
 
 # Specify commands to run inside the image
 RUN apt-get update
-RUN apt-get install -y python-matplotlib
 RUN apt-get install -y wget
 
 # Create working directory and add to path
@@ -36,7 +35,7 @@ EXPOSE 8888
 # boot2docker start # if OSX
 # boot2docker ip # if OSX
 # docker build -t tompollard/dorian:v1 .
-# docker run --rm=true -p 8888:8888 -i tompollard/dorian:v1
+# docker run -t --rm=true -p 8888:8888 -i tompollard/dorian:v1
 # Notebook available at: {ip}:8888
 
 
