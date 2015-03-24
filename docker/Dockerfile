@@ -19,6 +19,7 @@ ADD https://raw.githubusercontent.com/tompollard/dorian/master/README.md README.
 ADD https://raw.githubusercontent.com/tompollard/dorian/master/mapper.py mapper.py
 ADD https://raw.githubusercontent.com/tompollard/dorian/master/reducer.py reducer.py
 ADD https://raw.githubusercontent.com/tompollard/dorian/master/countwords countwords
+ADD https://raw.githubusercontent.com/tompollard/dorian/master/docker/wordcount.ipynb wordcount.ipynb
 
 # Permissions
 RUN chmod 755 mapper.py reducer.py countwords
